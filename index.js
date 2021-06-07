@@ -30,5 +30,4 @@ console.log(`The DNA strand is ${dna.length} characters long`);
 
 //e) Just for fun, apply methods to ``dna`` and use another template literal to print, 'taco cat'.
 
-console.log(`taco ${dna.slice(40,43)}`);
-//unable to get .toLowerCase to work even as a stand alone request
+console.log(`taco ${dna.slice(40,43).toLowerCase()}`);
